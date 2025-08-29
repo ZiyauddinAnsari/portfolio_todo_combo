@@ -1,7 +1,7 @@
 import axios from "axios";
 import { NewsArticle } from "../types/api";
 
-const NEWS_API_KEY = process.env.REACT_APP_NEWS_API_KEY || "your-news-api-key";
+const NEWS_API_KEY = import.meta.env.VITE_NEWS_API_KEY || "your-news-api-key";
 const NEWS_BASE_URL = "https://newsapi.org/v2";
 
 export const newsService = {

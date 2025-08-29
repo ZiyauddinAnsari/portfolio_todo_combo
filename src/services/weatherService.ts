@@ -2,7 +2,7 @@ import axios from "axios";
 import { WeatherData } from "../types/api";
 
 const WEATHER_API_KEY =
-  process.env.REACT_APP_WEATHER_API_KEY || "your-openweather-api-key";
+  import.meta.env.VITE_WEATHER_API_KEY || "your-openweather-api-key";
 const WEATHER_BASE_URL = "https://api.openweathermap.org/data/2.5";
 
 export const weatherService = {
