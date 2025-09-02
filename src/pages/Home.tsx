@@ -26,14 +26,20 @@ const Home: React.FC = () => {
   useEffect(() => {
     const loadData = async () => {
       try {
-        // Use mock data for demo - replace with real API calls when you have API keys
-        const weatherData = weatherService.getMockWeatherData();
+        // Use real weather API (no API key required!)
+        const weatherData = await weatherService.getCurrentWeather();
         const newsData = newsService.getMockNewsData();
 
         setWeather(weatherData);
         setNews(newsData.slice(0, 3));
       } catch (error) {
         console.error("Error loading data:", error);
+        // Fallback to mock data
+        const weatherData = weatherService.getMockWeatherData();
+        const newsData = newsService.getMockNewsData();
+
+        setWeather(weatherData);
+        setNews(newsData.slice(0, 3));
       } finally {
         setLoading(false);
       }

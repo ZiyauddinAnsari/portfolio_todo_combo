@@ -71,7 +71,7 @@ const About: React.FC = () => {
                   <div className="flex items-center justify-center space-x-4 text-sm text-gray-500">
                     <div className="flex items-center">
                       <MapPin size={16} className="mr-1" />
-                      <span>New York, USA</span>
+                      <span>Ahmedabad, India</span>
                     </div>
                     <div className="flex items-center">
                       <Mail size={16} className="mr-1" />
