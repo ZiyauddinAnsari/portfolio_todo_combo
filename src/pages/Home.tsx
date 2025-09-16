@@ -17,6 +17,7 @@ import { weatherService } from "../services/weatherService";
 import { newsService } from "../services/newsService";
 import { WeatherData, NewsArticle } from "../types/api";
 import { projects } from "../data/portfolioData";
+import profileImage from "../assets/self.jpg";
 
 const Home: React.FC = () => {
   const [weather, setWeather] = useState<WeatherData | null>(null);
@@ -80,7 +81,7 @@ const Home: React.FC = () => {
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
                   Hi, I'm{" "}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-600">
-                    Ziyauddin
+                    Roger Steve
                   </span>
                 </h1>
 
@@ -108,7 +109,7 @@ const Home: React.FC = () => {
 
               <div className="flex items-center space-x-6">
                 <a
-                  href="https://github.com/ZiyauddinAnsari"
+                  href="https://github.com/RogerSteve"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-full bg-white shadow-md hover:shadow-lg transition-all duration-200 text-gray-700 hover:text-primary-600"
@@ -116,7 +117,7 @@ const Home: React.FC = () => {
                   <Github size={20} />
                 </a>
                 <a
-                  href="https://linkedin.com/in/ziyauddin-ansari"
+                  href="https://linkedin.com/in/roger-steve"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-full bg-white shadow-md hover:shadow-lg transition-all duration-200 text-gray-700 hover:text-primary-600"
@@ -137,7 +138,7 @@ const Home: React.FC = () => {
                   <div className="w-full h-full rounded-full bg-white p-4 flex items-center justify-center">
                     <img
                       src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
-                      alt="Ziyauddin Ansari"
+                      alt="Roger Steve"
                       className="w-full h-full rounded-full object-cover"
                     />
                   </div>
@@ -406,7 +407,7 @@ const Home: React.FC = () => {
                 <Button
                   variant="secondary"
                   size="lg"
-                  className="bg-white text-primary-600 hover:bg-gray-100"
+                  className="bg-transparent text-white border border-white hover:bg-transparent hover:text-white"
                 >
                   Get In Touch
                   <ArrowRight size={20} className="ml-2" />
@@ -414,9 +415,9 @@ const Home: React.FC = () => {
               </Link>
               <Link to="/todos">
                 <Button
-                  variant="outline"
+                  variant="secondary"
                   size="lg"
-                  className="border-white text-white hover:bg-white hover:text-primary-600"
+                  className="bg-transparent text-white border border-white hover:bg-transparent hover:text-white"
                 >
                   Try Todo Manager
                 </Button>
