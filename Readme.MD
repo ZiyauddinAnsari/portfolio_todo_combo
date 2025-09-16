@@ -79,7 +79,7 @@ A modern, full-featured React + TypeScript application that combines a stunning 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/ZiyauddinAnsari/portfolio_todo_combo.git
+   git clone https://github.com/RogerSteve/portfolio_todo_combo.git
    cd portfolio_todo_combo
    ```
 
@@ -222,12 +222,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Ziyauddin Ansari**
+**Roger Steve**
 
 - Portfolio: [Your Portfolio URL]
-- GitHub: [@ZiyauddinAnsari](https://github.com/ZiyauddinAnsari)
-- LinkedIn: [Ziyauddin Ansari](https://linkedin.com/in/ziyauddin-ansari)
-- Email: ziyauddin.ansari@example.com
+- GitHub: [@RogerSteve](https://github.com/RogerSteve)
+- LinkedIn: [Roger Steve](https://linkedin.com/in/roger-steve)
+- Email: roger.steve@example.com
 
 ## 🙏 Acknowledgments
 

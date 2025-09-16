@@ -50,8 +50,8 @@ const Contact: React.FC = () => {
     {
       icon: <Mail size={24} />,
       label: "Email",
-      value: "ziyauddin.ansari@example.com",
-      href: "mailto:ziyauddin.ansari@example.com",
+      value: "roger.steve@example.com",
+      href: "mailto:roger.steve@example.com",
     },
     {
       icon: <Phone size={24} />,
@@ -71,19 +71,19 @@ const Contact: React.FC = () => {
     {
       icon: <Github size={20} />,
       label: "GitHub",
-      href: "https://github.com/ZiyauddinAnsari",
+      href: "https://github.com/RogerSteve",
       color: "hover:bg-gray-900",
     },
     {
       icon: <Linkedin size={20} />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/ziyauddin-ansari",
+      href: "https://linkedin.com/in/roger-steve",
       color: "hover:bg-blue-700",
     },
     {
       icon: <Twitter size={20} />,
       label: "Twitter",
-      href: "https://twitter.com/ziyauddin_dev",
+      href: "https://twitter.com/roger_steve_dev",
       color: "hover:bg-blue-500",
     },
   ];

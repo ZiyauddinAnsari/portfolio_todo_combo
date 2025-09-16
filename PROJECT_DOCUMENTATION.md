@@ -577,7 +577,7 @@ npm run deploy
 
 ```bash
 # Clone repository
-git clone https://github.com/ZiyauddinAnsari/portfolio_todo_combo.git
+git clone https://github.com/RogerSteve/portfolio_todo_combo.git
 
 # Install dependencies
 npm install
@@ -727,10 +727,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 👨‍💻 Author
 
-**Ziyauddin Ansari**
+**Roger Steve**
 
-- GitHub: [@ZiyauddinAnsari](https://github.com/ZiyauddinAnsari)
-- Portfolio: [Live Demo](https://ziyauddinansari.github.io/portfolio_todo_combo)
+- GitHub: [@RogerSteve](https://github.com/RogerSteve)
+- Portfolio: [Live Demo](https://rogersteve.github.io/portfolio_todo_combo)
 
 ---
 

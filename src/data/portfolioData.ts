@@ -26,7 +26,7 @@ export const projects: Project[] = [
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
     demoUrl: "#",
-    githubUrl: "https://github.com/ZiyauddinAnsari/portfolio_todo_combo",
+    githubUrl: "https://github.com/RogerSteve/portfolio_todo_combo",
     featured: true,
     createdAt: new Date("2025-08-27"),
   },

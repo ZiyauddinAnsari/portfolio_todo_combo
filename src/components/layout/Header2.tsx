@@ -46,7 +46,7 @@ const Header: React.FC = () => {
             <div className="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
               ZA
             </div>
-            <span className="hidden sm:block">Ziyauddin Ansari</span>
+            <span className="hidden sm:block">Roger Steve</span>
           </Link>
 
           {/* Desktop Navigation */}

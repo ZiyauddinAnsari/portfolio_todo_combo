@@ -7,22 +7,22 @@ const Footer: React.FC = () => {
   const socialLinks = [
     {
       icon: <Github size={20} />,
-      href: "https://github.com/ZiyauddinAnsari",
+      href: "https://github.com/RogerSteve",
       label: "GitHub",
     },
     {
       icon: <Linkedin size={20} />,
-      href: "https://linkedin.com/in/ziyauddin-ansari",
+      href: "https://linkedin.com/in/roger-steve",
       label: "LinkedIn",
     },
     {
       icon: <Twitter size={20} />,
-      href: "https://twitter.com/ziyauddin_dev",
+      href: "https://twitter.com/roger_steve_dev",
       label: "Twitter",
     },
     {
       icon: <Mail size={20} />,
-      href: "mailto:ziyauddin.ansari@example.com",
+      href: "mailto:roger.steve@example.com",
       label: "Email",
     },
   ];
@@ -35,9 +35,9 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
-                ZA
+                RS
               </div>
-              <span className="font-bold text-lg">Ziyauddin Ansari</span>
+              <span className="font-bold text-lg">Roger Steve</span>
             </div>
             <p className="text-secondary-400 text-sm">
               Full Stack Developer passionate about creating innovative digital
@@ -118,7 +118,7 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-secondary-800 flex flex-col md:flex-row items-center justify-between">
           <p className="text-secondary-400 text-sm">
-            © {currentYear} Ziyauddin Ansari. All rights reserved.
+            © {currentYear} Roger Steve. All rights reserved.
           </p>
           <div className="flex items-center space-x-1 text-secondary-400 text-sm mt-4 md:mt-0">
             <span>Made with</span>

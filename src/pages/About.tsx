@@ -56,7 +56,7 @@ const About: React.FC = () => {
                   <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary-200">
                     <img
                       src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face"
-                      alt="Ziyauddin Ansari"
+                      alt="Roger Steve"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -64,7 +64,7 @@ const About: React.FC = () => {
 
                 <div className="text-center space-y-2">
                   <h2 className="text-2xl font-bold text-gray-900">
-                    Ziyauddin Ansari
+                    Roger Steve
                   </h2>
                   <p className="text-gray-600">Full Stack Developer</p>
 
